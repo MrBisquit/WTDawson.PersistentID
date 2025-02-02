@@ -4,6 +4,9 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Description>A library for creating replicatable unique IDs in C#.</Description>
+    <PackageProjectUrl>https://github.com/MrBisquit/WTDawson.PersistentID</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MrBisquit/WTDawson.PersistentID</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
