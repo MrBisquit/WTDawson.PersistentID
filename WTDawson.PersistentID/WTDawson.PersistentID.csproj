@@ -7,6 +7,7 @@
     <Description>A library for creating replicatable unique IDs in C#.</Description>
     <PackageProjectUrl>https://github.com/MrBisquit/WTDawson.PersistentID</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MrBisquit/WTDawson.PersistentID</RepositoryUrl>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
 </Project>

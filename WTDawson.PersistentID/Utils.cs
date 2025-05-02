@@ -71,6 +71,32 @@ namespace WTDawson.PersistentID
             }
             return Characters.ToArray();
         }
+
+        /// <summary>
+        /// Determines if a number is prime or not
+        /// </summary>
+        /// <param name="num">The number</param>
+        /// <returns>If the number is prime</returns>
+        public static bool IsPrime(long num)
+        {
+            if (num < 2) return false;
+            if (num % 2 == 0) return num == 2;
+
+            for (long i = 3; i * i <= num; i += 2)
+                if (num % i == 0) return false;
+
+            return true;
+        }
+
+        /// <summary>
+        /// Determines if a number is prime or not
+        /// </summary>
+        /// <param name="num">The number</param>
+        /// <returns>If the number is prime</returns>
+        public static bool IsPrime(int num)
+        {
+            return IsPrime((long)num);
+        }
     }
 
     public static class PublicUtils
